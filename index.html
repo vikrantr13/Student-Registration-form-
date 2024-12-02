@@ -1,0 +1,46 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="script.js">
+</head>
+<body>
+
+  <!-- Header Section with Title -->
+  <header>
+    <h1>Student Registration Form</h1>
+  </header>
+
+  <!-- Registration Form -->
+  <div class="container">
+    <form id="registrationForm">
+      <label for="studentName">Student Name</label>
+      <input type="text" id="studentName" name="studentName" placeholder="Enter your name" required>
+
+      <label for="studentID">Student ID</label>
+      <input type="number" id="studentID" name="studentID" placeholder="Enter your student ID" required>
+
+      <label for="email">Email ID</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email ID" required>
+
+      <label for="contactNo">Contact No</label>
+      <input type="number" id="contactNo" name="contactNo" placeholder="Enter your contact number" required>
+
+      <!-- Button Text Changed to Submit -->
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- Container for Registered Student Info -->
+  <div class="container">
+    <h2>Registered Student Info</h2>
+    <div id="storage"></div>
+  </div>
+
+  
+</body>
+</html>
